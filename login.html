@@ -9,30 +9,37 @@
 </head>
 
 <body>
-
+    <!-- Encabezado -->
     <header>
-        <!-- Encabezado -->
         <div class="logo">
-            <img src="/img/pymenfinder.png" alt="Logo de la empresa">
+            <img src="/img/pymenfinder.png" alt="Logo de la empresa" style="width: 180px; height:45px;">
         </div>
+        <nav>
+            <ul>
+                <li><a href="/registrousuarios.html">Regístrate</a></li>
+                <li><a href="/Index.html">Incio</a></li>
+
+            </ul>
+        </nav>
     </header>
     <!-- Contenedor Inicio-de-Sesión -->
+    <section>
     <div class="contenedor-login">
-        <div>
-            <img src="/img/isesión.png" alt="">
-        </div>
-
-        <div class="login-container">
-            <h2>Iniciar Sesión</h2>
-            <form class="login-form">
-                <label for="username">Correo Electrónico:</label>
-                <input type="text" id="username" name="username" required>
-                <label for="password">Contraseña:</label>
-                <input type="password" id="password" name="password" required>
-                <button type="submit">Iniciar Sesión</button>
-            </form>
-        </div>
+        <img src="/img/ubicacion.jpg">
     </div>
+    <div class="login-container">
+        <h2>Iniciar Sesión</h2>
+        <form class="login-form">
+            <label for="username">Correo Electrónico:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <p class="link-contra"><a href="#">¿Olvidaste tu contraseña?</a></p>
+            <button type="submit">Iniciar Sesión</button>
+            <p class="link-registro">¿Aún no tienes cuenta? <a href="/registrousuarios.html">Regístrate aquí</a></p>
+        </form>
+    </div>
+</section>
 </body>
 
 </html>

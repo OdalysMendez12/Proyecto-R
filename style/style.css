@@ -1,5 +1,5 @@
 
-body {
+body { 
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -20,13 +20,14 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 10px;
+    margin-right: 25px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #34312F;
-    font-size: 24px;
+    font-size: 20px;
+    padding: 10px;
 }
 
 .logo {
@@ -102,7 +103,6 @@ h1 {
 }
 
 .menu-icon {
-    display: flex;
     align-items: center;
     margin-right: 20px; /* Ajusta el margen según sea necesario */
     cursor: pointer;
