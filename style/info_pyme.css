@@ -13,6 +13,8 @@ body {
     background-size: cover;
     background-position: center;
     font-family: Arial, sans-serif;
+    background-color: #F8F3EC;
+    ;
 }
 
 header {
@@ -64,5 +66,40 @@ nav ul li a {
     height: 100%;
     background: rgba(0, 0, 0, 0.7);
     z-index: 1;
+}
 
+.contenedor-uno{
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px 30px;
+    align-items: center;
+}
+.contenedor-uno img{
+    border-radius: 20px;
+    width: 600px;
+    height: 400px;
+    text-shadow: 0 0 5px #4a4a4a;
+}
+.contenedor-uno h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+.contenedor-uno p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: justify;
+    font-size: 20px;
+}
+.contenedor-dos{
+    display: flex;
+    justify-content:space-between;
+    padding: 30px 30px 30px;
+
+}
+.contenedor-dos .info-contacto{
+    background-color: #FACC5F;
 }
