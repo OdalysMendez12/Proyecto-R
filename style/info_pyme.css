@@ -102,4 +102,13 @@ nav ul li a {
 }
 .contenedor-dos .info-contacto{
     background-color: #FACC5F;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-dos .info-contacto .info{
+    display: inline-flex;
+    align-items: center;
+    padding: 25px;
+    justify-content: center;
 }
